@@ -1,0 +1,230 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*---------------------
+   header part
+------------------- */
+header {
+    width: 1300px;
+    margin: 20px auto;
+}
+
+.header-container {
+    display: flex;
+    background-color: rgb(15, 14, 14);
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.heading-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heading-paragraph {
+    color: white;
+}
+
+.heading-button {
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.heading-button a {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-image img {
+    width: 100%;
+    transition: transform 0.1s linear;
+}
+
+.header-image img:hover {
+    transform: scale(1.5) rotate(0deg);
+}
+
+/*---------------------
+   Main part
+------------------- */
+main {
+    width: 1300px;
+    margin: 20px auto;
+}
+
+/* button area */
+
+.section-container {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.link-button {
+    background-color: rgb(15, 14, 14);
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+
+.first-button,
+.second-button,
+.third-button,
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.first-button,
+.second-button,
+.third-button,
+button {
+    padding: 15px 40px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+
+/* match schedule area */
+.match-schedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.match-details {
+    padding: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.match-info {
+    display: flex;
+    gap: 15px;
+}
+
+.schedule-info {
+    text-align: center;
+}
+
+.schedule-info h4 {
+    font-weight: bolder;
+}
+
+.schedule-info p {
+    font-size: 12px;
+}
+
+.country-image img {
+    width: 100%;
+}
+
+/* blog area */
+
+.player-cart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.player-details {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.blog-details {
+    padding: 10px;
+}
+
+.blog-button input {
+    padding: 3px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.blog-paragraph {
+    font-weight: 700;
+}
+
+.comment-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.blog-info {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+/*---------------------
+   footer part
+------------------- */
+footer {
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(15, 14, 14);
+}
+
+.footer-details {
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-title {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.copyright {
+    color: white;
+}
+
+.footer-condition {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.social-icon a {
+    color: aliceblue;
+}
